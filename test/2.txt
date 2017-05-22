@@ -1,0 +1,62 @@
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective settings
+[WARNING] Unrecognised tag: 'server' (position: START_TAG seen ...</activeProfiles>\n\t<server>... @50:10)  @ C:\Users\Mr.wang-PC\.m2\settings.xml, line 50, column 10
+[WARNING] 
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.whz:whz-spring-boot-test:jar:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.scope' for org.springframework.data:spring-data-releasetrain:pom must be one of [provided, compile, runtime, test, system] but is 'import'. @ line 25, column 11
+[WARNING] 'dependencies.dependency.scope' for org.springframework.boot:spring-boot-dependencies:pom must be one of [provided, compile, runtime, test, system] but is 'import'. @ line 33, column 11
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building boottest 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:resolve (default-cli) @ whz-spring-boot-test ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.8.1:compile
+[INFO]    org.springframework:spring-web:jar:4.3.2.RELEASE:compile
+[INFO]    org.slf4j:jul-to-slf4j:jar:1.7.21:compile
+[INFO]    org.hibernate:hibernate-validator:jar:5.2.4.Final:compile
+[INFO]    org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.4:compile
+[INFO]    org.springframework.data:spring-data-releasetrain:pom:Fowler-SR2:import
+[INFO]    org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.4:compile
+[INFO]    org.springframework:spring-context:jar:4.3.2.RELEASE:compile
+[INFO]    org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.0.RELEASE:compile
+[INFO]    org.jboss.logging:jboss-logging:jar:3.2.1.Final:compile
+[INFO]    org.springframework.boot:spring-boot-autoconfigure:jar:1.4.0.RELEASE:compile
+[INFO]    org.yaml:snakeyaml:jar:1.17:runtime
+[INFO]    org.springframework.boot:spring-boot-starter-web:jar:1.4.0.RELEASE:compile
+[INFO]    com.fasterxml:classmate:jar:1.1.0:compile
+[INFO]    org.springframework.boot:spring-boot-starter-logging:jar:1.4.0.RELEASE:compile
+[INFO]    org.springframework:spring-webmvc:jar:4.3.2.RELEASE:compile
+[INFO]    org.springframework:spring-beans:jar:4.3.2.RELEASE:compile
+[INFO]    org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE:compile
+[INFO]    org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.4:compile
+[INFO]    ch.qos.logback:logback-classic:jar:1.1.7:compile
+[INFO]    org.springframework.boot:spring-boot:jar:1.4.0.RELEASE:compile
+[INFO]    org.springframework:spring-expression:jar:4.3.2.RELEASE:compile
+[INFO]    ch.qos.logback:logback-core:jar:1.1.7:compile
+[INFO]    org.springframework:spring-core:jar:4.3.2.RELEASE:compile
+[INFO]    javax.validation:validation-api:jar:1.1.0.Final:compile
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.8.1:compile
+[INFO]    org.slf4j:jcl-over-slf4j:jar:1.7.21:compile
+[INFO]    org.slf4j:log4j-over-slf4j:jar:1.7.21:compile
+[INFO]    org.springframework:spring-aop:jar:4.3.2.RELEASE:compile
+[INFO]    org.springframework.boot:spring-boot-dependencies:pom:1.4.0.RELEASE:import
+[INFO]    org.slf4j:slf4j-api:jar:1.7.20:compile
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.252 s
+[INFO] Finished at: 2016-08-12T16:35:23+08:00
+[INFO] Final Memory: 16M/225M
+[INFO] ------------------------------------------------------------------------
